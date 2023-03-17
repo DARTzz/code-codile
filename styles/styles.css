@@ -1,0 +1,76 @@
+
+.login-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+.login-text{
+    color : white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+.login-pane{
+    height : 25rem;
+    width : 30rem;
+    background-color: #57cc99c9;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+.login-pane-element{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap : 2rem;
+}
+.login-input{
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    color : grey;
+    padding-left: 1rem;
+    height: 3rem;
+    width: 80%;
+}
+.login-button{
+    align-self: center;
+    padding : 1rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 3rem;
+    border: none;
+    background-color: #bc4749;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+.questions{
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 300;
+}
+.questions:hover{
+    cursor: pointer;
+}
+.login-button:hover{
+    cursor: pointer;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    right : 1rem;
+}

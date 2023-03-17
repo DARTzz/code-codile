@@ -2,9 +2,8 @@
   "name": "code-codile",
   "version": "1.0.0",
   "description": "A universal code fixer",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel index.js"
+    "start": "parcel index.html"
   },
   "author": "Satpal Singh and Preetam Singh",
   "license": "ISC",
@@ -13,6 +12,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
   }
 }
