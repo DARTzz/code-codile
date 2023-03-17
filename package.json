@@ -1,0 +1,14 @@
+{
+  "name": "code-codile",
+  "version": "1.0.0",
+  "description": "A universal code fixer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satpal Singh and Preetam Singh",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
