@@ -1,9 +1,10 @@
 import React from "react";
-import StartPage from "";
+import StartPage from "./StartPage.js";
 
-export default function App(){
-
-    return(<div className="app">
-        <StartPage/>
-    </div>);
+export default function App() {
+    return (
+        <div className="app">
+            <StartPage />
+        </div>
+    );
 }
