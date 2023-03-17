@@ -2,3 +2,4 @@ node_modules/
 .git/
 .bin/
 dist/
+.parcel-cache/
