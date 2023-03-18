@@ -1,22 +1,26 @@
 .login-page{
     height: 100vh;
     width: 100vw;
-    background-color: #212529;
+    /* background-color: #212529; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position : relative;
 }   
 .login-text{
     color : white;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
-    font-weight: 300;
+    font-weight: 400;
+    /* background-color: #49505721; */
+    width: 100%;
+    text-align: center;
 }
 .login-pane{
     height : 25rem;
     width : 30rem;
-    background-color: #57cc99c9;
+    background-color: #0f1113bb;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -25,6 +29,7 @@
     align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
+    position: relative;
 }
 .login-pane-element{
     display: flex;
@@ -54,9 +59,10 @@
 }
 .questions{
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
-    font-weight: 300;
+    font-weight: 400;
+    text-align: right;
 }
 .questions:hover{
     cursor: pointer;
@@ -68,10 +74,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     position: absolute;
-    bottom: 1rem;
     right : 1rem;
+    top : 101rem;
+    transition: all 1s 0.5s;
 }
 
 .start-page {
@@ -83,25 +90,88 @@
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    gap: 1rem;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
+    position : relative;
+    gap: 5rem;
 }
-.logo {
-    width: 30vw;
+.start-logo {
+    width: 20vw;
+    left : 40vw;
+    top: 20vh;
+    position:absolute;
+    transition: all 4s 0.5s;
+    z-index: 11;
 }
-
-.entry {
-    margin-top: 5rem;
+.start-text{
+    font-size: 5rem;
+    font-weight: 700;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    padding-left:25vw;
+    /* background-color: #2125298a; */
+}
+.start-button {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #bc4749;
-    width: 20rem;
-    height: 8rem;
-    border-radius: 10rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    width : 15rem;
+    padding : 1rem;
+    outline: solid;
+    outline-color: white;
+    outline-offset: 0.5rem;
+    outline-width: 1px;
+    font-weight: 500;
+    position : absolute;
+    bottom: 18rem;
+    z-index: 10;
+    height: 4rem;
+    transition: all 1s 0.3s;
 }
-.entry:hover {
+.start-button:hover {
     cursor: pointer;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0rem;
 }
+.app{
+    height : 100vh;
+    width : 100vw;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
 
+}
+.slider-section{
+    height : 300vh;
+    width : 100vw;
+    transition: all 2s 2s;
+    transform : translateY(0vh);
+}
+.rectifier{
+    color : #bc4749;
+    font-size: 5rem;
+        font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+}
+/* .squid{
+    position: absolute;
+    left: -10rem;
+    bottom: -4rem;
+    height: 15rem;
+} */
+.bob{
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    width: 15rem;
+}
+.bob:hover{
+    cursor: pointer;
+    z-index: 9;
+}

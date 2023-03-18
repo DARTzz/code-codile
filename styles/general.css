@@ -10,6 +10,6 @@
 
 html {
     font-size: 62.5%;
-    background: linear-gradient(to top, rgba(1, 2, 3, 0.5), rgba(1, 2, 3, 0.5)),
+    background: linear-gradient(to top, rgba(1, 2, 3, 0.65), rgba(1, 2, 3, 0.65)),
         url(../assets/funcky-background.jpg) center/cover fixed no-repeat;
 }
